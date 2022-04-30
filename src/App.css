@@ -1,4 +1,45 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(32, 1, 41, 0.829);
 }
 
+.header {
+  text-align: center;
+  margin-top: 10%;
+  color: rgba(255, 255, 255, 0.671);
+}
+.header img{
+  width: 30%;
+  height: 30%;
+  border-radius: 20px;
+}
+
+.search-button input{
+  width: 28%;
+  padding: 10px;
+  margin: 20px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  position: relative;
+}
+ #logo2{
+   height: 25px;
+   width: 25px;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: -40px;
+ }
+
+@media (max-width:600px) {
+  .header{
+    font-size: small;
+    margin-top: 30%;
+  }
+  .header img{
+    width: 50%;
+    height: 50%;
+  }
+  .search-button input{
+    width: 48%;
+    font-size: 15px;
+  }
+}
